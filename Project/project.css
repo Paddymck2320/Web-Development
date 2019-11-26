@@ -1,0 +1,19 @@
+body {
+    max-width: 900px;
+    margin: auto;
+  }
+  .box{
+    background-color: rgb(255, 174, 0);
+    min-width: 700px;
+    min-height: 300px;
+    
+  }
+  h1 {
+    text-align: center;
+    color: forestgreen;
+  }
+  .button{
+    text-align: center;
+    color: forestgreen;
+  }
+  
