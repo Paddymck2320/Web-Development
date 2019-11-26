@@ -1,19 +1,22 @@
 body {
-    max-width: 900px;
-    margin: auto;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
   }
   .box{
-    background-color: rgb(255, 174, 0);
     min-width: 700px;
     min-height: 300px;
     
   }
   h1 {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(205, 213, 230);
     text-align: center;
-    color: forestgreen;
+    padding: 20px;
+    color: rgb(205, 8, 53);
   }
   .button{
     text-align: center;
-    color: forestgreen;
+    color: rgb(5, 15, 36);
   }
   
