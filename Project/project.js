@@ -10,9 +10,10 @@ function grabFile(file) {
 		var KEY = "http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=aa6e580535bdc3d4589179dfdfc6f204";
 		request.open("GET", KEY, true);
 		request.send(null);
+		console.log( );
 	}
 	
 	window.onload= function(){
-
+		$("find_weather").onclick = KEY;
 	}
 }

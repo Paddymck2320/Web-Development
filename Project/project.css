@@ -1,7 +1,10 @@
 body {
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size:100% 100%; 
+    background: linear-gradient(rgb(47,150,163), rgb(46,62,143));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
   }
   .box{
     min-width: 700px;
@@ -10,10 +13,9 @@ body {
   }
   h1 {
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(205, 213, 230);
     text-align: center;
     padding: 20px;
-    color: rgb(205, 8, 53);
+    color: rgb(237, 235, 240);
   }
   .button{
     text-align: center;
