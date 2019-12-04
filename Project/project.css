@@ -1,15 +1,26 @@
 body {
-    background: linear-gradient(rgb(47,150,163), rgb(46,62,143));
-    height: 100vh;
+    background: linear-gradient(to right ,rgb(47,150,163), rgb(46,62,143));
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items:center;
   }
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    size: 5cm;
+    padding: 0.2cm;
+  }
+  .next {
+    background-color:  #f1f1f1;
+    color: black;
+    size: 5cm;
+    padding: 0.2cm;
+  }
+
   .box{
     min-width: 700px;
-    min-height: 300px;
-    
+    min-height: 150px;
   }
   h1 {
     font-family:'Courier New', Courier, monospace;
